@@ -146,8 +146,8 @@ def reset_spotify():
 
     global_states.sp = SpotifyManager(
         redirect_uri="http://192.168.0.239:9998",
-        client_id="1d1f43e971cc4354966f7d43cb54cba7",
-        client_secret="72e0699d87e94382a313a6c06ae54ffc",
+        client_id=CLIENT_ID,
+        client_secret=CLIENT_SECRET,
     )
     global_states.current_color = (255, 255, 255)
     global_states.current_song = None
